@@ -7,7 +7,6 @@ export default function AboutPage() {
 
       <section className="px-6 pb-24 pt-32">
         <div className="mx-auto max-w-5xl">
-
           {/* Header */}
           <div className="max-w-3xl">
             <p className="text-sm font-semibold tracking-[0.25em] text-gray-500">
@@ -21,13 +20,14 @@ export default function AboutPage() {
 
           {/* Content */}
           <div className="mt-16 grid gap-12 md:grid-cols-[1.2fr_0.8fr]">
-
             {/* Introduction */}
             <div className="space-y-6 text-lg leading-8 text-gray-600">
               <p>
                 I&apos;m a Software Engineer who enjoys building practical
-                applications and learning how different technologies come
-                together to create useful products.
+                applications and solving real-world problems through
+                technology. I like working across different parts of the
+                software development process and understanding how technologies
+                come together to create useful products.
               </p>
 
               <p>
@@ -36,9 +36,9 @@ export default function AboutPage() {
               </p>
 
               <p>
-                Currently, I&apos;m focusing on strengthening my skills in
-                software development, Java, AWS, and cloud technologies while
-                continuing to build and explore new projects.
+                Currently, I&apos;m strengthening my skills in software
+                development, Java, AWS, and cloud technologies while continuing
+                to build and explore new projects.
               </p>
             </div>
 
@@ -66,14 +66,14 @@ export default function AboutPage() {
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-black" />
                   <span className="text-gray-700">
-                    AWS & Cloud Technologies
+                    AWS &amp; Cloud Technologies
                   </span>
                 </li>
 
                 <li className="flex items-center gap-3">
                   <span className="h-2 w-2 rounded-full bg-black" />
                   <span className="text-gray-700">
-                    Building Practical Projects
+                    Full-Stack Development
                   </span>
                 </li>
               </ul>
@@ -87,7 +87,6 @@ export default function AboutPage() {
               and discovering good food.
             </p>
           </div>
-
         </div>
       </section>
     </main>
