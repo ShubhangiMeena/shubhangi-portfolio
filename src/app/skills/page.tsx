@@ -36,8 +36,12 @@ const skillGroups = [
     ],
   },
   {
-    title: "Tools",
+    title: "AI & Developer Tools",
     skills: [
+      "AI-Assisted Development",
+      "GitHub Copilot",
+      "Claude",
+      "Cursor",
       "Git",
       "GitHub",
       "Postman",
