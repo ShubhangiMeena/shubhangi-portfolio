@@ -11,7 +11,7 @@ const experiences = [
     achievements: [
       "Developed and maintained backend APIs using Node.js and Express.js.",
       "Optimized data collection workflows, reducing collection time by approximately 30%.",
-      "Built an automated document acquisition workflow using Node.js and Puppeteer, reducing manual effort.",
+      "Built an automated document acquisition workflow using Node.js and Puppeteer, reducing manual effort by approximately 15%.",
       "Worked with AWS S3 and CloudWatch for application data storage and monitoring.",
       "Collaborated with cross-functional teams to troubleshoot issues and improve application reliability.",
     ],
@@ -20,7 +20,7 @@ const experiences = [
     company: "Jio Platforms Ltd.",
     role: "Software Engineering Intern",
     period: "Jan 2021 – Jul 2021",
-    location: "Navi Mumbai , Maharashtra ",
+    location: "Navi Mumbai, Maharashtra",
     description:
       "Contributed to a Supply Chain Management project, working on backend APIs and data management.",
     achievements: [
@@ -38,7 +38,6 @@ export default function ExperiencePage() {
 
       <section className="px-6 pb-24 pt-32">
         <div className="mx-auto max-w-5xl">
-
           {/* Header */}
           <div className="max-w-3xl">
             <p className="text-sm font-semibold tracking-[0.25em] text-gray-500">
@@ -57,27 +56,22 @@ export default function ExperiencePage() {
 
           {/* Timeline */}
           <div className="relative mt-16">
-
             {/* Timeline Line */}
             <div className="absolute bottom-0 left-[7px] top-2 hidden w-px bg-gray-200 sm:block" />
 
             <div className="space-y-14">
-
               {experiences.map((experience) => (
                 <article
                   key={`${experience.company}-${experience.role}`}
                   className="relative sm:pl-12"
                 >
-
                   {/* Timeline Dot */}
                   <div className="absolute left-0 top-2 hidden h-[15px] w-[15px] rounded-full border-[3px] border-white bg-black shadow-sm sm:block" />
 
                   {/* Experience Card */}
                   <div className="rounded-2xl border border-gray-200 bg-white p-7 transition duration-300 hover:border-gray-300 hover:shadow-md">
-
                     {/* Header */}
                     <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
-
                       <div>
                         <h2 className="text-2xl font-semibold tracking-tight">
                           {experience.role}
@@ -97,7 +91,6 @@ export default function ExperiencePage() {
                           {experience.location}
                         </p>
                       </div>
-
                     </div>
 
                     {/* Description */}
@@ -124,14 +117,11 @@ export default function ExperiencePage() {
                         ))}
                       </ul>
                     </div>
-
                   </div>
                 </article>
               ))}
-
             </div>
           </div>
-
         </div>
       </section>
     </main>
