@@ -16,7 +16,8 @@ const projects = [
       "Added real-time updates for bookmark changes.",
       "Built a responsive full-stack application using Next.js and Supabase.",
     ],
-    github: "https://github.com/ShubhangiMeena/Smart-Bookmark-App",
+    github:
+      "https://github.com/ShubhangiMeena/Smart-Bookmark-App",
   },
 
   {
@@ -28,7 +29,8 @@ const projects = [
       "Built reusable Vue.js components with centralized state management using Pinia.",
       "Created a responsive interface using Tailwind CSS.",
     ],
-    github: "https://github.com/ShubhangiMeena/Task_Manager",
+    github:
+      "https://github.com/ShubhangiMeena/Task_Manager",
   },
 
   {
@@ -40,7 +42,8 @@ const projects = [
       "Built URL generation and redirection functionality using Flask.",
       "Used SQLite for persistent data storage.",
     ],
-    github: "https://github.com/ShubhangiMeena/URL-Shortner",
+    github:
+      "https://github.com/ShubhangiMeena/URL-Shortner",
   },
 
   {
@@ -58,7 +61,8 @@ const projects = [
       "Implemented Repository Pattern and Dependency Injection for separation of concerns.",
       "Added server-side validation and error handling.",
     ],
-    github: "https://github.com/ShubhangiMeena/Todo-App",
+    github:
+      "https://github.com/ShubhangiMeena/Todo-App",
   },
 ];
 
@@ -69,7 +73,6 @@ export default function ProjectsPage() {
 
       <section className="px-6 pb-24 pt-32">
         <div className="mx-auto max-w-6xl">
-
           {/* Page Heading */}
           <div className="max-w-3xl">
             <p className="text-sm font-semibold tracking-[0.25em] text-gray-500">
@@ -77,12 +80,12 @@ export default function ProjectsPage() {
             </p>
 
             <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-              Things I&apos;ve Built
+              Selected Projects
             </h1>
 
             <p className="mt-5 text-lg leading-8 text-gray-600">
-              A selection of projects where I&apos;ve explored different
-              technologies and built practical applications.
+              A selection of projects showcasing my experience across
+              full-stack development, backend systems, and cloud technologies.
             </p>
           </div>
 
@@ -152,7 +155,6 @@ export default function ProjectsPage() {
               </article>
             ))}
           </div>
-
         </div>
       </section>
     </main>

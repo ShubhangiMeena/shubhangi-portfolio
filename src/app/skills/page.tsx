@@ -26,18 +26,22 @@ const skillGroups = [
   },
   {
     title: "Cloud & DevOps",
-    skills: ["AWS", "Docker", "Terraform", "CI/CD", "Git", "GitHub"],
+    skills: [
+      "AWS",
+      "S3",
+      "CloudWatch",
+      "Docker",
+      "Terraform",
+      "CI/CD",
+    ],
   },
   {
-    title: "AI & Developer Tools",
+    title: "Tools",
     skills: [
-      "Claude",
-      "GitHub Copilot",
-      "Cursor",
-      "AI-Assisted Coding",
+      "Git",
+      "GitHub",
       "Postman",
       "Puppeteer",
-      "CloudWatch",
       "Datadog",
     ],
   },
@@ -50,7 +54,6 @@ export default function SkillsPage() {
 
       <section className="px-6 pb-24 pt-32">
         <div className="mx-auto max-w-6xl">
-
           {/* Page Heading */}
           <div className="max-w-3xl">
             <p className="text-sm font-semibold tracking-[0.25em] text-gray-500">
@@ -58,7 +61,7 @@ export default function SkillsPage() {
             </p>
 
             <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-              Technologies & Tools
+              Technologies &amp; Tools
             </h1>
 
             <p className="mt-5 text-lg leading-8 text-gray-600">
@@ -97,7 +100,6 @@ export default function SkillsPage() {
               </article>
             ))}
           </div>
-
         </div>
       </section>
     </main>
