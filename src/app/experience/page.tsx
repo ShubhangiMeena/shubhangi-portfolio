@@ -5,7 +5,7 @@ const experiences = [
     company: "MeasureOne Solutions Pvt. Ltd.",
     role: "Associate Software Engineer",
     period: "Aug 2021 – Sep 2023",
-    location: "India",
+    location: "Ahmedabad, Gujarat",
     description:
       "Worked on backend development for a Consumer Data-as-a-Service platform, contributing to APIs, automation workflows, and data collection systems.",
     achievements: [
@@ -20,7 +20,7 @@ const experiences = [
     company: "Jio Platforms Ltd.",
     role: "Software Engineering Intern",
     period: "Jan 2021 – Jul 2021",
-    location: "India",
+    location: "Navi Mumbai , Maharashtra ",
     description:
       "Contributed to a Supply Chain Management project, working on backend APIs and data management.",
     achievements: [
